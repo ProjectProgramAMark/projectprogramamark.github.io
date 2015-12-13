@@ -1,0 +1,10 @@
+{
+  "applications": {
+    "_default": {
+      "link": "parseemailer"
+    },
+    "parseemailer": {
+      "applicationId": "8HmXE72GWrxnJ3ZLELz5BQHSBeMFVgIKucEatEid"
+    }
+  }
+}

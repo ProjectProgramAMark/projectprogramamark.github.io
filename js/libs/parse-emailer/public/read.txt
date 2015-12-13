@@ -1,0 +1,2 @@
+This directory is here in case I need to make changes to the Cloud Code from Parse
+For some reason it won't let me deploy code unless I have the public directory here
