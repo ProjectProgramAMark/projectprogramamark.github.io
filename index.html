@@ -26,6 +26,8 @@
 		<link rel="stylesheet" href="css/font-awesome.min.css">
 		<link rel="stylesheet" href="css/designr-theme-cyan.css">
 		
+		<!-- My added CSS -->
+		<link rel="stylesheet" href="css/main.css">
 		
 		<!-- ==============================================
 		Fonts
@@ -168,7 +170,7 @@
 					</div>
 					<div class="col-md-3 text-center  col-md-push-3">
 						<h2>Travel</h2>
-						<a href="#service" class="icon"><i class="fa fa-rocket"></i></a>
+						<a href="#service" class="icon"><i class="fa fa-globe"></i></a>
 					</div>
 					<div class="col-md-3 details  col-md-pull-3">
 						<p>I am an avid traveler, and am intent on seeing the entire world throughout my life. I have spent months traveling alone to many different continents and countries.</p>
@@ -211,19 +213,23 @@
 				<div class="row skills">
 
 					<div class="col-sm-6 col-md-3 text-center">
-						<span class="chart" data-percent="80"><span class="percent">80</span></span>
+						<!-- <span class="chart" data-percent="80"><span class="percent">80</span></span> -->
+						<span class="count" id="countwithdecimals" data-from="0" data-to="3.5"></span>
 						<h2 class="text-center">Web Design</h2>
 					</div>
 					<div class="col-sm-6 col-md-3 text-center">
-						<span class="chart" data-percent="70"><span class="percent">70</span></span>
+						<!-- <span class="chart" data-percent="70"><span class="percent">70</span></span> -->
+						<span class="count" data-from="0" data-to="4"></span>
 						<h2 class="text-center">HTML / CSS</h2>
 					</div>
 					<div class="col-sm-6 col-md-3 text-center">
-						<span class="chart" data-percent="60"><span class="percent">60</span></span>
+						<!-- <span class="chart" data-percent="60"><span class="percent">60</span></span> -->
+						<span class="count" data-from="0" data-to="5"></span>
 						<h2 class="text-center">Graphic Design</h2>
 					</div>
 					<div class="col-sm-6 col-md-3 text-center">
-						<span class="chart" data-percent="90"><span class="percent">90</span></span>
+						<!-- <span class="chart" data-percent="90"><span class="percent">90</span></span> -->
+						<span class="count" data-from="0" data-to="67"></span>
 						<h2 class="text-center">UI / UX</h2>
 					</div>
 					
@@ -271,21 +277,20 @@
 					=============================================== -->	
 					<a class="project-item web-design" href="http://www.google.com" data-images="assets/projects/project-slide.jpg,assets/projects/project-slide.jpg,assets/projects/project-slide.jpg">
 						
-						<img class="img-responsive project-image" src="assets/projects/project-thumb.jpg"  alt=""><!--Project thumb -->
+						<img class="img-responsive project-image" src="assets/portfolio/acr-screenshot.jpg"  alt=""><!--Project thumb -->
 						
 						<div class="hover-mask">
-							<h2 class="project-title">Clean &amp; Minimal</h2><!--Project Title -->
-							<p>google.com</p><!--Project Subtitle -->
+							<h2 class="project-title">Registratr.py</h2><!--Project Title -->
+							<p>Automatic Class Registration</p><!--Project Subtitle -->
 						</div>
 						
 						<!--==== Project Preview HTML ====-->
 						
 						<div class="sr-only project-description">
-							<p class="clearfix">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sapien risus, blandit at fringilla ac, varius sed dolor. Donec augue lacus, vulputate sed consectetur facilisis, interdum pharetra ligula. Nulla suscipit erat nibh, ut porttitor nisl dapibus eu.</p>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sapien risus, blandit at fringilla ac, varius sed dolor. Donec augue lacus, vulputate sed consectetur facilisis, interdum pharetra ligula. Nulla suscipit erat nibh, ut porttitor nisl dapibus eu.</p>
-							<img class="img-responsive img-center" src="assets/projects/company-logo.png"  alt="">
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sapien risus, blandit at fringilla ac, varius sed dolor. Donec augue lacus, vulputate sed consectetur facilisis, interdum pharetra ligula. Nulla suscipit erat nibh, ut porttitor nisl dapibus eu.</p>
-							<p>Nam eget urna pellentesque nisl ultrices dapibus. Mauris accumsan vehicula nisl, sed tempus mauris facilisis eu. Donec a iaculis nisi, quis malesuada justo. Pellentesque ut enim sit amet ipsum dignissim egestas. Morbi tincidunt rhoncus urna eget placerat.</p>
+							<p class="clearfix">A script built using Python that consistently looks for an opening in a specific class in the university. The user manuevers through a GUI and inputs his/her account credentials, and the CRN of the class the user wishes to search. The script is then run on a loop until the class is found to have an opening. The script then automatically registers the class for the user and notifies when finished.</p>
+							<!-- <img class="img-responsive img-center" src="assets/projects/company-logo.png"  alt=""> -->
+							<p>This script uses web scraping and web automating technology, as well as handling queues and threads, amongst other things.</p>
+							<p>For more information, or if you want to contribute, you can check out the source code on my Github.</p>
 						</div>
 						
 					</a>
@@ -295,20 +300,19 @@
 					
 					<a class="project-item icons ui-kits" href="#somelink" data-images="assets/projects/project-slide.jpg">
 						
-						<img class="img-responsive project-image" src="assets/projects/project-thumb.jpg" alt=""><!--Project thumb -->
+						<img class="img-responsive project-image" src="assets/portfolio/flkidscampscreenshot.jpg" alt=""><!--Project thumb -->
 						
 						<div class="hover-mask">
-							<h2 class="project-title">Flat UI Kit</h2><!--Project Title -->
-							<p>microsoft.com</p><!--Project Subtitle -->
+							<h2 class="project-title">Florida Kids Camp</h2><!--Project Title -->
+							<!-- <p>microsoft.com</p> --><!--Project Subtitle -->
 						</div>
 						
 						<!--==== Project Preview HTML ====-->
 						
 						<div class="sr-only project-description">
-							<p class="clearfix">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sapien risus, blandit at fringilla ac, varius sed dolor. Donec augue lacus, vulputate sed consectetur facilisis, interdum pharetra ligula. Nulla suscipit erat nibh, ut porttitor nisl dapibus eu.</p>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sapien risus, blandit at fringilla ac, varius sed dolor. Donec augue lacus, vulputate sed consectetur facilisis, interdum pharetra ligula. Nulla suscipit erat nibh, ut porttitor nisl dapibus eu.</p>
+							<p class="clearfix">A website that includes registration, details, and a photo gallery of the official Florida Kids Camp for the Coptic Orthodox Church.</p>
 							<img class="img-responsive img-center" src="assets/projects/company-logo.png" alt="">
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sapien risus, blandit at fringilla ac, varius sed dolor. Donec augue lacus, vulputate sed consectetur facilisis, interdum pharetra ligula. Nulla suscipit erat nibh, ut porttitor nisl dapibus eu. Nam eget urna pellentesque nisl ultrices dapibus. Mauris accumsan vehicula nisl, sed tempus mauris facilisis eu. Donec a iaculis nisi, quis malesuada justo. Pellentesque ut enim sit amet ipsum dignissim egestas. Morbi tincidunt rhoncus urna eget placerat.</p>
+							<!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sapien risus, blandit at fringilla ac, varius sed dolor. Donec augue lacus, vulputate sed consectetur facilisis, interdum pharetra ligula. Nulla suscipit erat nibh, ut porttitor nisl dapibus eu. Nam eget urna pellentesque nisl ultrices dapibus. Mauris accumsan vehicula nisl, sed tempus mauris facilisis eu. Donec a iaculis nisi, quis malesuada justo. Pellentesque ut enim sit amet ipsum dignissim egestas. Morbi tincidunt rhoncus urna eget placerat.</p> -->
 						</div>
 						
 					</a><!--End Project Item -->
@@ -318,142 +322,21 @@
 						<img class="img-responsive project-image" src="assets/projects/project-thumb.jpg"  alt=""><!--Project thumb -->
 						
 						<div class="hover-mask">
-							<h2 class="project-title">Singolo</h2><!--Project Title -->
-							<p>amazon.com</p><!--Project Subtitle -->
+							<h2 class="project-title">Others Coming soon!</h2><!--Project Title -->
+							<!-- <p>amazon.com</p> --><!--Project Subtitle -->
 						</div>
 						
 						<!--==== Project Preview HTML ====-->
 						
 						<div class="sr-only project-description">
-							<p class="clearfix">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sapien risus, blandit at fringilla ac, varius sed dolor. Donec augue lacus, vulputate sed consectetur facilisis, interdum pharetra ligula. Nulla suscipit erat nibh, ut porttitor nisl dapibus eu.</p>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sapien risus, blandit at fringilla ac, varius sed dolor. Donec augue lacus, vulputate sed consectetur facilisis, interdum pharetra ligula. Nulla suscipit erat nibh, ut porttitor nisl dapibus eu.</p>
+							<p class="clearfix">As of right now I don't have much but there is more coming soon I swear!</p>
 							<img class="img-responsive img-center" src="assets/projects/company-logo.png"  alt="">
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sapien risus, blandit at fringilla ac, varius sed dolor. Donec augue lacus, vulputate sed consectetur facilisis, interdum pharetra ligula. Nulla suscipit erat nibh, ut porttitor nisl dapibus eu.</p>
+							<!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sapien risus, blandit at fringilla ac, varius sed dolor. Donec augue lacus, vulputate sed consectetur facilisis, interdum pharetra ligula. Nulla suscipit erat nibh, ut porttitor nisl dapibus eu.</p> -->
 						</div>
 						
 					</a><!--End Project Item -->
 
-					<a class="project-item ui-kits" href="http://www.google.com" data-images="assets/projects/project-slide.jpg">
-						
-						<img class="img-responsive project-image" src="assets/projects/project-thumb.jpg"  alt=""><!--Project thumb -->
-						
-						<div class="hover-mask">
-							<h2 class="project-title">Chat UI Concept</h2><!--Project Title -->
-							<p>google.com</p><!--Project Subtitle -->
-						</div>
-						
-						<!--==== Project Preview HTML ====-->
-						
-						<div class="sr-only project-description">
-							<p class="clearfix">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sapien risus, blandit at fringilla ac, varius sed dolor. Donec augue lacus, vulputate sed consectetur facilisis, interdum pharetra ligula. Nulla suscipit erat nibh, ut porttitor nisl dapibus eu.</p>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sapien risus, blandit at fringilla ac, varius sed dolor. Donec augue lacus, vulputate sed consectetur facilisis, interdum pharetra ligula. Nulla suscipit erat nibh, ut porttitor nisl dapibus eu.</p>
-							<img class="img-responsive img-center" src="assets/projects/company-logo.png"  alt="">
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sapien risus, blandit at fringilla ac, varius sed dolor. Donec augue lacus, vulputate sed consectetur facilisis, interdum pharetra ligula. Nulla suscipit erat nibh, ut porttitor nisl dapibus eu.</p>
-							<p>Nam eget urna pellentesque nisl ultrices dapibus. Mauris accumsan vehicula nisl, sed tempus mauris facilisis eu. Donec a iaculis nisi, quis malesuada justo. Pellentesque ut enim sit amet ipsum dignissim egestas. Morbi tincidunt rhoncus urna eget placerat.</p>
-						</div>
-						
-					</a><!--End Project Item -->
-
-					<a class="project-item icons" href="#somelink" data-images="assets/projects/project-slide.jpg">
-						
-						<img class="img-responsive project-image" src="assets/projects/project-thumb.jpg"  alt=""><!--Project thumb -->
-						
-						<div class="hover-mask">
-							<h2 class="project-title">Login Web Buttons</h2><!--Project Title -->
-							<p>microsoft.com</p><!--Project Subtitle -->
-						</div>
-						
-						<!--==== Project Preview HTML ====-->
-						
-						<div class="sr-only project-description">
-							<p class="clearfix">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sapien risus, blandit at fringilla ac, varius sed dolor. Donec augue lacus, vulputate sed consectetur facilisis, interdum pharetra ligula. Nulla suscipit erat nibh, ut porttitor nisl dapibus eu.</p>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sapien risus, blandit at fringilla ac, varius sed dolor. Donec augue lacus, vulputate sed consectetur facilisis, interdum pharetra ligula. Nulla suscipit erat nibh, ut porttitor nisl dapibus eu.</p>
-							<img class="img-responsive img-center" src="assets/projects/company-logo.png" alt="">
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sapien risus, blandit at fringilla ac, varius sed dolor. Donec augue lacus, vulputate sed consectetur facilisis, interdum pharetra ligula. Nulla suscipit erat nibh, ut porttitor nisl dapibus eu. Nam eget urna pellentesque nisl ultrices dapibus. Mauris accumsan vehicula nisl, sed tempus mauris facilisis eu. Donec a iaculis nisi, quis malesuada justo. Pellentesque ut enim sit amet ipsum dignissim egestas. Morbi tincidunt rhoncus urna eget placerat.</p>
-						</div>
-						
-					</a><!--End Project Item -->
-
-					<a class="project-item web-design" href="#somelink" data-images="assets/projects/project-slide.jpg,assets/projects/project-slide.jpg,assets/projects/project-slide.jpg">
-						
-						<img class="img-responsive project-image" src="assets/projects/project-thumb.jpg"  alt=""><!--Project thumb -->
-						
-						<div class="hover-mask">
-							<h2 class="project-title">LimeLight</h2><!--Project Title -->
-							<p>amazon.com</p><!--Project Subtitle -->
-						</div>
-						
-						<!--==== Project Preview HTML ====-->
-						
-						<div class="sr-only project-description">
-							<p class="clearfix">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sapien risus, blandit at fringilla ac, varius sed dolor. Donec augue lacus, vulputate sed consectetur facilisis, interdum pharetra ligula. Nulla suscipit erat nibh, ut porttitor nisl dapibus eu.</p>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sapien risus, blandit at fringilla ac, varius sed dolor. Donec augue lacus, vulputate sed consectetur facilisis, interdum pharetra ligula. Nulla suscipit erat nibh, ut porttitor nisl dapibus eu.</p>
-							<img class="img-responsive img-center" src="assets/projects/company-logo.png"  alt="">
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sapien risus, blandit at fringilla ac, varius sed dolor. Donec augue lacus, vulputate sed consectetur facilisis, interdum pharetra ligula. Nulla suscipit erat nibh, ut porttitor nisl dapibus eu.</p>
-						</div>
-						
-					</a><!--End Project Item -->
-
-					<a class="project-item web-design" href="http://www.google.com" data-images="assets/projects/project-slide.jpg,assets/projects/project-slide.jpg,assets/projects/project-slide.jpg">
-						
-						<img class="img-responsive project-image" src="assets/projects/project-thumb.jpg"  alt=""><!--Project thumb -->
-						
-						<div class="hover-mask">
-							<h2 class="project-title">Organic</h2><!--Project Title -->
-							<p>google.com</p><!--Project Subtitle -->
-						</div>
-						
-						<!--==== Project Preview HTML ====-->
-						
-						<div class="sr-only project-description">
-							<p class="clearfix">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sapien risus, blandit at fringilla ac, varius sed dolor. Donec augue lacus, vulputate sed consectetur facilisis, interdum pharetra ligula. Nulla suscipit erat nibh, ut porttitor nisl dapibus eu.</p>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sapien risus, blandit at fringilla ac, varius sed dolor. Donec augue lacus, vulputate sed consectetur facilisis, interdum pharetra ligula. Nulla suscipit erat nibh, ut porttitor nisl dapibus eu.</p>
-							<img class="img-responsive img-center" src="assets/projects/company-logo.png"  alt="">
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sapien risus, blandit at fringilla ac, varius sed dolor. Donec augue lacus, vulputate sed consectetur facilisis, interdum pharetra ligula. Nulla suscipit erat nibh, ut porttitor nisl dapibus eu.</p>
-							<p>Nam eget urna pellentesque nisl ultrices dapibus. Mauris accumsan vehicula nisl, sed tempus mauris facilisis eu. Donec a iaculis nisi, quis malesuada justo. Pellentesque ut enim sit amet ipsum dignissim egestas. Morbi tincidunt rhoncus urna eget placerat.</p>
-						</div>
-						
-					</a><!--End Project Item -->
-					
-					<a class="project-item icons" href="#somelink" data-images="assets/projects/project-slide.jpg,assets/projects/project-slide.jpg,assets/projects/project-slide.jpg">
-						
-						<img class="img-responsive project-image" src="assets/projects/project-thumb.jpg"  alt=""><!--Project thumb -->
-						
-						<div class="hover-mask">
-							<h2 class="project-title">Social Media Icons</h2><!--Project Title -->
-							<p>microsoft.com</p><!--Project Subtitle -->
-						</div>
-						
-						<!--==== Project Preview HTML ====-->
-						
-						<div class="sr-only project-description">
-							<p class="clearfix">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sapien risus, blandit at fringilla ac, varius sed dolor. Donec augue lacus, vulputate sed consectetur facilisis, interdum pharetra ligula. Nulla suscipit erat nibh, ut porttitor nisl dapibus eu.</p>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sapien risus, blandit at fringilla ac, varius sed dolor. Donec augue lacus, vulputate sed consectetur facilisis, interdum pharetra ligula. Nulla suscipit erat nibh, ut porttitor nisl dapibus eu.</p>
-							<img class="img-responsive img-center" src="assets/projects/company-logo.png" alt="">
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sapien risus, blandit at fringilla ac, varius sed dolor. Donec augue lacus, vulputate sed consectetur facilisis, interdum pharetra ligula. Nulla suscipit erat nibh, ut porttitor nisl dapibus eu. Nam eget urna pellentesque nisl ultrices dapibus. Mauris accumsan vehicula nisl, sed tempus mauris facilisis eu. Donec a iaculis nisi, quis malesuada justo. Pellentesque ut enim sit amet ipsum dignissim egestas. Morbi tincidunt rhoncus urna eget placerat.</p>
-						</div>
-						
-					</a><!--End Project Item -->
-					
-					<a class="project-item web-design" href="#somelink" data-images="assets/projects/project-slide.jpg,assets/projects/project-slide.jpg">
-						
-						<img class="img-responsive project-image" src="assets/projects/project-thumb.jpg" alt=""><!--Project thumb -->
-						
-						<div class="hover-mask">
-							<h2 class="project-title">Explore</h2><!--Project Title -->
-							<p>amazon.com</p><!--Project Subtitle -->
-						</div>
-						
-						<!--==== Project Preview HTML ====-->
-						
-						<div class="sr-only project-description">
-							<p class="clearfix">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sapien risus, blandit at fringilla ac, varius sed dolor. Donec augue lacus, vulputate sed consectetur facilisis, interdum pharetra ligula. Nulla suscipit erat nibh, ut porttitor nisl dapibus eu.</p>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sapien risus, blandit at fringilla ac, varius sed dolor. Donec augue lacus, vulputate sed consectetur facilisis, interdum pharetra ligula. Nulla suscipit erat nibh, ut porttitor nisl dapibus eu.</p>
-							<img class="img-responsive img-center" src="assets/projects/company-logo.png"  alt="">
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sapien risus, blandit at fringilla ac, varius sed dolor. Donec augue lacus, vulputate sed consectetur facilisis, interdum pharetra ligula. Nulla suscipit erat nibh, ut porttitor nisl dapibus eu.</p>
-						</div>
-						
-					</a><!--End Project Item -->
+					<!-- START PASTING NEW PROJECT ITEM TEMPLATES HERE -->
 						
 				</div><!-- End projects --> 
 				
@@ -486,7 +369,7 @@
 							
 							<div class="clearfix"></div>
 							
-							<p class="text-center"><a class="btn btn-theme"><i class="fa fa-external-link"></i>Visit Website</a></p>
+							<!-- <p class="text-center"><a class="btn btn-theme"><i class="fa fa-external-link"></i>Visit Website</a></p> -->
 						
 						</div><!-- End modal-body -->
 						
@@ -636,6 +519,10 @@
 
 		<!-- Emailing with Parse and Sendgrid script -->
 		<script src="js/libs/parse-emailer/parse.js"></script>
+
+		<!-- Counter instead of percentage -->
+		<script src="js/libs/counter/jquery.countTo.js"></script>
+		<script src="js/libs/counter/counter.js"></script>
 	</body>
 	
 </html>
