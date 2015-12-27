@@ -243,7 +243,17 @@ $(document).ready(function() {
 		if (direction=='down'){
 			$.backstretch('assets/contact-bg.jpg');
 		}else{
-			$.backstretch('assets/header-bg.jpg');
+			// $.backstretch('assets/header-bg.jpg');
+			$.backstretch([
+			'assets/background/tibet_waterfall.jpg',
+			'assets/background/amsterdam.jpg',
+			'assets/background/waterfall.jpeg',
+			'assets/background/tibet_village.jpg',
+			'assets/background/budapest.jpg',
+			'assets/background/haiti_pic.jpg',
+			'assets/background/corn_island_grass.jpg'
+			
+			], {duration: 2000, fade: 750});
 		}
 	});
 	
