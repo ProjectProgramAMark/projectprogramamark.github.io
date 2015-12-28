@@ -28,6 +28,7 @@
 		
 		<!-- My added CSS -->
 		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="js/libs/toastr/toastr.css">
 		
 		<!-- ==============================================
 		Fonts
@@ -380,29 +381,9 @@
 			</div><!-- End modal -->
 			
 		</section><!-- End portfolio section -->
-		
-		<!-- ==============================================
-		TWITTER FEED
-		=============================================== -->	
- 		<!-- <section id="twitter">
-			<div class="container">
-				<div class="row scrollimation fade-in">
-					<div class="col-sm-1 twitter-icon">
-						<i class="fa fa-twitter"></i>
-					</div>
-					<div class="col-sm-11">
-						<div id="twitter-slider" class="flexslider" data-widget-id="386017398488186880" data-tweets-length="3">
-						
-						</div>
-					</div>
-				</div><!-- End row -->
-			<!-- </div> --><!-- End container -->
-			
-		<!-- </section> --> <!-- End Twitter section -->
 
-		<!-- ==============================================
-		CONTACT
-		=============================================== -->	
+		<!-- WHERE TWITTER FEED IS SUPPOSED TO GO -->
+
 		<section  id="contact">
 		
 			<div class="container">
@@ -419,7 +400,8 @@
 							Mark Moussa<br>
 							<!-- W325 State Road 123<br> -->
 							Tampa, FL<br>
-							(813) 731 - 0742
+							(813) 731 - 0742<br>
+							mark.moussa1234@gmail.com
 						</address>
 						
 						<ul class="socials">
@@ -431,13 +413,13 @@
 						
 					</div>
 				  
-					<form id="contact-form" class="col-sm-7 scrollimation fade-left" method="post" novalidate>
+					<form id="contact-form" class="col-sm-7 scrollimation fade-left" action="//formspree.io/projectprogramamark@gmail.com" method="post" data-toggle="validator" data-display="false" novalidate>
 						
 						<div class="form-group">
 						  <label class="control-label" for="contact-name">Name</label>
 						  <div class="controls">
 							<i class="fa fa-user"></i>
-							<input id="contact-name" name="contactName" placeholder="My name is..." class="form-control input-lg requiredField" type="text" data-error-empty="Please enter your name">
+							<input id="contact-name" name="contactName" placeholder="My name is..." class="form-control input-lg requiredField" type="text" data-error-empty="Please enter your name" required>
 						  </div>
 						</div><!-- End name input -->
 						
@@ -445,21 +427,20 @@
 						  <label class="control-label" for="contact-mail">Email</label>
 						  <div class=" controls">
 							<i class="fa fa-envelope"></i>
-							<input id="contact-mail" name="email" placeholder="Please respond at..." class="form-control input-lg requiredField" type="email" data-error-empty="Please enter your email" data-error-invalid="Invalid email address">
+							<input id="contact-mail" name="contact" placeholder="Please respond at..." class="form-control input-lg requiredField" type="email" data-error-empty="Please enter your email" data-error-invalid="Invalid email address" required>
 						  </div>
 						</div><!-- End email input -->
-						
+
+						<input type="hidden" name="_next" value="//projectprogramamark.github.io/" />
+
 						<div class="form-group">
 						  <label class="control-label" for="contact-message">Message</label>
 							<div class="controls">
 								<i class="fa fa-comment"></i>
-								<textarea id="contact-message" name="comments"  placeholder="I wanna talk about..." class="form-control input-lg requiredField" rows="5" data-error-empty="Please enter your message"></textarea>
+								<textarea id="contact-message" name="comments"  placeholder="Message..." class="form-control input-lg requiredField" rows="5" data-error-empty="Please enter your message" required></textarea>
 							</div>
 						</div><!-- End textarea -->
-						
-						<p><button name="submit" type="submit" class="btn btn-theme btn-lg" data-error-message="Error!" data-sending-message="Sending..." data-ok-message="Message Sent"><i class="fa fa-paper-plane"></i>Send Message</button></p>
-						<input type="hidden" name="submitted" id="submitted" value="true" />
-						
+						<button name="submit" type="submit" class="btn btn-theme btn-lg" value="Send" onclick="sendSuccess()" data-error-message="Error!" data-sending-message="Sending..." data-ok-message="Message Sent"><i class="fa fa-paper-plane"></i>Send Message</button>
 					</form><!-- End contact-form -->
 					<div id="response"></div>
 				  
@@ -505,7 +486,7 @@
 		=============================================== -->	
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 		<script>window.jQuery || document.write('<script src="js/libs/jquery-1.9.1.min.js">\x3C/script>')</script>
-		
+
 		<script src="js/libs/bootstrap.min.js"></script>
 		<script src='js/jquery.scrollto.js'></script>
 		<script src='js/jquery.flexslider.min.js'></script>
@@ -516,13 +497,15 @@
 		<script src="js/jquery.backstretch.min.js"></script>
 		<script src="js/contact.js"></script>
 		<script src="js/designr.js"></script>
-
-		<!-- Emailing with Parse and Sendgrid script -->
-		<script src="js/libs/parse-emailer/parse.js"></script>
-
+		<!-- My custom JS -->
+		<script src="js/main.js"></script>
 		<!-- Counter instead of percentage -->
 		<script src="js/libs/counter/jquery.countTo.js"></script>
 		<script src="js/libs/counter/counter.js"></script>
+		<!-- Toastr -->
+		<script src="js/libs/toastr/toastr.js"></script>
+		<!-- Bootstrap validator -->
+		<script src="js/validator.min.js"></script>
 
 	</body>
 	
