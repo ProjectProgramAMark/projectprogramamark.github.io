@@ -223,12 +223,15 @@ $(document).ready(function() {
 	// $.backstretch('assets/corn_island_grass.jpg');
 	$.backstretch([
 		'assets/background/tibet_waterfall.jpg',
-		//'assets/background/amsterdam.jpg',
+		'assets/background/amsterdam.jpg',
 		'assets/background/waterfall.jpeg',
 		'assets/background/tibet_village.jpg',
 		'assets/background/budapest.jpg',
 		'assets/background/haiti_pic.jpg',
-		'assets/background/corn_island_grass.jpg'
+		'assets/background/monks.jpg',
+		'assets/background/corn_island_grass.jpg',
+		'assets/background/haiti_clouds.jpg',
+		'assets/background/dunhuang_desert.jpg'
 
 		], {duration: 2000, fade: 750});
 
