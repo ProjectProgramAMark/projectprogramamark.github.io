@@ -223,7 +223,7 @@ $(document).ready(function() {
 	// $.backstretch('assets/corn_island_grass.jpg');
 	$.backstretch([
 		'assets/background/tibet_waterfall.jpg',
-		'assets/background/amsterdam.jpg',
+		//'assets/background/amsterdam.jpg',
 		'assets/background/waterfall.jpeg',
 		'assets/background/tibet_village.jpg',
 		'assets/background/budapest.jpg',
