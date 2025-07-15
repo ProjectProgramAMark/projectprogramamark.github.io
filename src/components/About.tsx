@@ -50,6 +50,12 @@ const About = () => {
           <JourneyTitle>Recent Updates</JourneyTitle>
           <UpdatesList>
             <UpdateItem>
+              <UpdateDate>July 2025:</UpdateDate>
+              <UpdateText>
+                Paper accepted to ICCV SEA Workshop! <i>PyroFocus: A Deep Learning Approach to Real-Time Wildfire Detection in Multispectral Remote Sensing Imagery</i>. Preprint coming soon!
+              </UpdateText>
+            </UpdateItem>
+            <UpdateItem>
               <UpdateDate>December 2024:</UpdateDate>
               <UpdateText>
                 Presenting at AGU 2024! Presenting work for 2 different projects there. Reach out if you want to meet up!
