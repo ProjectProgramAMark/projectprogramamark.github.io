@@ -50,9 +50,15 @@ const About = () => {
           <JourneyTitle>Recent Updates</JourneyTitle>
           <UpdatesList>
             <UpdateItem>
+              <UpdateDate>October 2025:</UpdateDate>
+              <UpdateText>
+                Paper accepted to AAAI 2026! <i>Life, Machine Learning, and the Search for Habitability: Predicting Biosignature Fluxes for the Habitable Worlds Observatory</i>. Publication coming soon!
+              </UpdateText>
+            </UpdateItem>
+            <UpdateItem>
               <UpdateDate>July 2025:</UpdateDate>
               <UpdateText>
-                Paper accepted to ICCV SEA Workshop! <i>PyroFocus: A Deep Learning Approach to Real-Time Wildfire Detection in Multispectral Remote Sensing Imagery</i>. Preprint coming soon!
+                Paper accepted to ICCV SEA Workshop! <i>PyroFocus: A Deep Learning Approach to Real-Time Wildfire Detection in Multispectral Remote Sensing Imagery</i>. Publication coming soon!
               </UpdateText>
             </UpdateItem>
             <UpdateItem>
